@@ -2,7 +2,7 @@ import express from 'express'
 import os from 'os'
 
 const app = express()
-const PORT = 3000
+const PORT = 8080
 
 app.get("/", (req, res) => {
     const helloMessage = 'Hello from the ${os.hostname())}'
